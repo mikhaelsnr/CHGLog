@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CHGLog (configured)",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": [
+        "--no-enable-impeller",
+        "--dart-define=SUPABASE_URL=https://setzpzeyqcqwukhasslp.supabase.co",
+        "--dart-define=SUPABASE_PUBLISHABLE_KEY=sb_publishable_SuEpB0MpIouniyEt3SIKnQ_yI0XVvcd",
+        "--dart-define=GOOGLE_WEB_CLIENT_ID=806764573583-dol59hr7gs5s6lj0642kbg61ariie8ft.apps.googleusercontent.com"
+      ]
+    },
+    {
+      "name": "CHGLog (profile test)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "toolArgs": [
+        "--no-enable-impeller",
+        "--dart-define=SUPABASE_URL=https://setzpzeyqcqwukhasslp.supabase.co",
+        "--dart-define=SUPABASE_PUBLISHABLE_KEY=sb_publishable_SuEpB0MpIouniyEt3SIKnQ_yI0XVvcd",
+        "--dart-define=GOOGLE_WEB_CLIENT_ID=806764573583-dol59hr7gs5s6lj0642kbg61ariie8ft.apps.googleusercontent.com"
+      ]
+    }
+  ]
+}

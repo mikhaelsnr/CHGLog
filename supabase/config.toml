@@ -1,0 +1,11 @@
+project_id = "chglog"
+
+[auth.hook.before_user_created]
+enabled = true
+uri = "pg-functions://postgres/public/hook_allow_globe_email"
+
+[functions.chglog]
+verify_jwt = true
+
+[functions.sheet-status-webhook]
+verify_jwt = false
